@@ -1,22 +1,129 @@
 <!DOCTYPE html>
+<html lang="en">
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Kira Cenderelli - Resume</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            background-color: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        header {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        h1 {
+            font-size: 28px;
+            margin: 0;
+        }
+        h2 {
+            font-size: 20px;
+            color: #333;
+            margin-top: 20px;
+        }
+        h3 {
+            font-size: 18px;
+            color: #555;
+            margin-top: 10px;
+        }
+        p {
+            margin: 5px 0;
+        }
+        .contact-info {
+            font-size: 16px;
+            margin-bottom: 20px;
+        }
+        .contact-info p {
+            margin: 3px 0;
+        }
+        .section-title {
+            background-color: #0073e6;
+            color: white;
+            padding: 5px;
+            border-radius: 5px;
+            font-weight: bold;
+        }
+        .section {
+            margin-bottom: 20px;
+        }
+        .skills-list, .experiences-list, .leadership-list {
+            list-style: none;
+            padding-left: 0;
+        }
+        .skills-list li, .experiences-list li, .leadership-list li {
+            margin-bottom: 10px;
+        }
+        .education, .technical-skills, .experience, .leadership {
+            margin-bottom: 20px;
+        }
+    </style>
 </head>
-
 <body>
-    <h1>Bio</h1>
-        <h2>Jackson Stillwell</h2>
+    <div class="container">
+        <header>
+            <h1>Jackson Stillwell</h1>
+            <div class="contact-info">
+                <p>Email: jackc.stillwell@gmail.com <a href="mailto:jackc.stillwell@gmail.com"></a></p>
+                <p>Phone: (303)-748-7900</p>
+            </div>
+        </header>
 
-    <h1>Education</h1>
-        <h2>Red Rocks Community College</h2>
-            <h3>Associates of </h3>
+        <div class="education section">
+            <h2 class="section-title">Education</h2>
+            <p><strong>University of Colorado Boulder, Boulder, CO</strong></p>
+            <p>BS in Electrical and Computer Engineering, Expected Graduation: May 2027</p>
+            <p>Minor: Quantum Engineering</p>
+            <ul>
+                <li>CU Hyperloop Club</li>
+            </ul>
+            <p><strong>Red Rocks Community College</strong> - August 2024</p>
+        </div>
 
-            <img src="test.gif"/>
+        <div class="technical-skills section">
+            <h2 class="section-title">Technical Skills</h2>
+            <ul class="skills-list">
+                <li>C++, C, Python, Arduino, Object Oriented Programming, AWS</li>
+                <li>Soldering, Electrical Design, FPGAs</li>
+                <li>Excel, Word, SystemVerilog, MatLab, Altium Designer</li>
+            </ul>
+        </div>
 
+        <div class="experience section">
+            <h2 class="section-title">Engineering Experience</h2>
+            
+            <h3>Practical Printed Circuit Board Design and Manufacture (January 2025-Present)</h3>
+            <ul class="experiences-list">
+                <li>Developing PCB design skills through hands-on lab projects, progressing from schematic capture to PCB layout using Altium Designer.</li>
+                <li>Participating in critical design reviews (CDRs) to evaluate early-stage PCB layouts and apply industry best practices before fabrication.</li>
+                <li>Practicing oscilloscope measurements, crosstalk analysis, and power rail noise evaluation to troubleshoot circuit behavior and improve design reliability.</li>
+                <li>Completed labs covering best practices for signal integrity and power distribution networks (PDN) and designed circuits on solderless breadboards for analysis.</li>
+            </ul>
+        </div>
 
-        <h2>University of Colorado Boulder</h2>
-            <h3>Completed X credits towards B.A in Electrical and Computer Engineering</h3>
+        <div class="leadership section">
+            <h2 class="section-title">Leadership Experience</h2>
 
-    <h1>Coursework</h1>
-
-    <h1>Projects</h1>
+            <h3>After School Group Tutoring at Munroe Elementary School. Jan 2023 - Dec 2024</h3>
+            < class="leadership-list">
+                <li>Integrated with pre-existing after school program and taught a group of 3rd - 5th graders math and logic concepts, parallel with their coursework.</li>
+                <li>Received consistent feedback noting improvement in math proficiency among many of the students in the group.</li>
+                <li>Proof/Letter of Rec: <a href="munroe.pdf"> Link </a></li>
+            </ul>
+        </div>
+    </div>
 </body>
+</html>
