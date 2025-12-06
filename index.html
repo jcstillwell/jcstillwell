@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Resume</title>
+    <title>Jackson Stillwell - Resume</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -19,26 +19,17 @@
             margin: 0 auto;
             background-color: white;
             padding: 20px;
-            border-radius: 10px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-        }
-        header {
-            text-align: center;
-            margin-bottom: 20px;
         }
         h1 {
-            font-size: 28px;
+            font-size: 30px;
             margin: 0;
+            padding-bottom: 10px;
         }
         h2 {
             font-size: 20px;
-            color: #333;
             margin-top: 20px;
-        }
-        h3 {
-            font-size: 18px;
-            color: #555;
-            margin-top: 10px;
+            border-bottom: 2px solid #333;
+            padding-bottom: 5px;
         }
         p {
             margin: 5px 0;
@@ -50,25 +41,12 @@
         .contact-info p {
             margin: 3px 0;
         }
-        .section-title {
-            background-color: #0073e6;
-            color: white;
-            padding: 5px;
-            border-radius: 5px;
-            font-weight: bold;
-        }
-        .section {
-            margin-bottom: 20px;
-        }
-        .skills-list, .experiences-list, .leadership-list {
-            list-style: none;
+        ul {
+            list-style-type: none;
             padding-left: 0;
         }
-        .skills-list li, .experiences-list li, .leadership-list li {
-            margin-bottom: 10px;
-        }
-        .education, .technical-skills, .experience, .leadership {
-            margin-bottom: 20px;
+        li {
+            margin-bottom: 5px;
         }
     </style>
 </head>
@@ -77,48 +55,99 @@
         <header>
             <h1>Jackson Stillwell</h1>
             <div class="contact-info">
-                <p>Email: stillwelljcs@gmail.com <a href="mailto:stillwelljcs@gmail.com"></a></p>
-                <p>Phone: (303)-748-7900</p>
+                <p>Email: stillwelljcs@gmail.com</p>
+                <p>Phone: (303) 748-7900</p>
+                <p>Website: <a href="http://jcstillwell.com" target="_blank">jcstillwell.com</a></p>
             </div>
         </header>
 
-        <div class="education section">
-            <h2 class="section-title">Education</h2>
-            <p><strong>University of Colorado Boulder, Boulder, CO</strong></p>
-            <p>BS in Electrical and Computer Engineering, Expected Graduation: May 2027</p>
-            <p>Minor: Quantum Engineering</p>
+        <div class="education">
+            <h2>Education</h2>
+            <p><strong>University of Colorado Boulder</strong>, Boulder, CO</p>
+            <p><strong>2027</strong></p>
+            <p>Bachelor of Science, Electrical Engineering</p>
+            <p><strong>Relevant course work:</strong></p>
             <ul>
-                <li>CU Hyperloop Club</li>
+                <li>Digital Logic</li>
+                <li>Introduction to Circuits and Electronics</li>
+                <li>Circuits as Systems</li>
+                <li>Differential Equations and Linear Algebra</li>
+                <li>Introduction to Embedded Software Engineering</li>
             </ul>
-            <p><strong>Red Rocks Community College</strong> - August 2024</p>
-        </div>
 
-        <div class="technical-skills section">
-            <h2 class="section-title">Technical Skills</h2>
-            <ul class="skills-list">
-                <li>C++, C, Python, Arduino, Object Oriented Programming, AWS</li>
-                <li>Soldering, Electrical Design, FPGAs</li>
-                <li>Excel, Word, SystemVerilog, MatLab, Altium Designer</li>
-            </ul>
-        </div>
-
-        <div class="experience section">
-            <h2 class="section-title">Engineering Experience</h2>
-            
-            <h3>FILLER</h3>
-            <ul class="experiences-list">
-                <li>FILLER</li>
+            <p><strong>Red Rocks Community College</strong>, Lakewood, CO</p>
+            <p><strong>2024</strong></p>
+            <p>Associate of Engineering Science, General Engineering</p>
+            <p><strong>Relevant course work:</strong></p>
+            <ul>
+                <li>Calculus Sequence</li>
+                <li>Physics Sequence</li>
+                <li>Data Structures</li>
             </ul>
         </div>
 
-        <div class="leadership section">
-            <h2 class="section-title">Leadership Experience</h2>
+        <div class="professional-experience">
+            <h2>Professional Experience</h2>
 
-            <h3>After School Group Tutoring at Munroe Elementary School. Jan 2023 - Dec 2024</h3>
-                <li>Integrated with pre-existing after school program and taught a group of 3rd - 5th graders math and logic concepts, parallel with their coursework.</li>
-                <li>Received consistent feedback noting improvement in math proficiency among many of the students in the group.</li>
-                <li>Proof/Letter of Rec: <a href="munroe.pdf"> Link </a></li>
+            <p><strong>UPS</strong>, Englewood, CO</p>
+            <p><strong>May 2025</strong></p>
+            <p><strong>Seasonal Delivery Driver</strong></p>
+            <ul>
+                <li>Worked independently to transport and deliver packages to commercial and residential customers.</li>
+                <li>Work was fast-paced and required constant attention to detail to ensure deliveries were completed accurately and on time.</li>
             </ul>
+
+            <p><strong>RRCC Student Recreation Center</strong>, Lakewood, CO</p>
+            <p><strong>August 2024</strong></p>
+            <p><strong>Recreation Lead</strong></p>
+            <ul>
+                <li>Monitored recreation assistants to ensure cleaning and upkeep tasks were being done on time and correctly.</li>
+                <li>Managed payments, memberships, and handled customer complaints and issues.</li>
+            </ul>
+        </div>
+
+        <div class="projects-extracurricular">
+            <h2>Projects & Extracurricular</h2>
+
+            <p><strong>Digital Receipt Management System</strong></p>
+            <p><strong>January 2023</strong></p>
+            <ul>
+                <li>Built the frontend and backend for a digital receipt organization application used by stores and customers to speed up return transactions.</li>
+            </ul>
+
+            <p><strong>8 Bit Breadboard CPU</strong></p>
+            <p><strong>August 2025</strong></p>
+            <ul>
+                <li>Built an 8-bit, programmable CPU entirely on breadboards using fundamental logic gates. Design inspired by Ben Eater (YouTube).</li>
+            </ul>
+
+            <p><strong>Munroe Elementary Afterschool Program</strong></p>
+            <p><strong>Ongoing</strong></p>
+            <ul>
+                <li>Initiated and ran an afterschool math program at Munroe Elementary. The program was well received by both students and faculty.</li>
+                <li>Proof of participation: <a href="munroe.pdf" target="_blank">Link to PDF</a></li>
+            </ul>
+
+            <p><strong>CU Hyperloop</strong></p>
+            <p><strong>Month Year</strong></p>
+            <ul>
+                <li>Designed and tested control boards for a power distribution system inside a tunnel boring machine.</li>
+            </ul>
+        </div>
+
+        <div class="awards">
+            <h2>Awards and Achievements</h2>
+            <p><strong>Eagle Scout Rank</strong> - Boy Scouts of America, December 2021</p>
+            <p>Completed long list of requirements over the course of 4 years ending with a final project</p>
+            <p>For my final project I designed and built a public-access food pantry outside of the church where my troop met.</p>
+            <p>This pantry was mainly aimed to serve Golden, Colorado's large unhoused population.</p>
+        </div>
+
+        <div class="skills">
+            <h2>Skills</h2>
+            <p><strong>Programming Languages:</strong> Python, C, C++, React JS</p>
+            <p><strong>Computer Software/Frameworks:</strong> Git, Django, AWS</p>
+            <p><strong>Languages:</strong> English</p>
         </div>
     </div>
 </body>
